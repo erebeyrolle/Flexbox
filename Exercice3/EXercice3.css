@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    min-width: 100vw;
+    min-height: 10vh;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+main {
+    background-color: rgb(236, 228, 228);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+section p,
+h2 {
+    background-color: white;
+}

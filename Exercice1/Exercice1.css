@@ -1,0 +1,50 @@
+/* Body */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Menu */
+
+.menu-section {
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-heading {
+    color: white;
+    align-self: center;
+    margin: auto;
+}
+
+
+/* Navigation */
+
+#single-nav {
+    order: 0;
+}
+
+#single-nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    padding-left: 0;
+}
+
+#single-nav li {
+    flex-grow: 1;
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+#single-nav a {
+    display: block;
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+    flex: 1;
+}

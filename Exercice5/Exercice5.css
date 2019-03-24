@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: aqua;
+}
+
+
+/* White header / Red div */
+
+header {
+    background-color: white;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header div {
+    background-color: red;
+    height: 15vh;
+    width: 20vw;
+    margin-top: 10px;
+}
+
+
+/* First section, two yellow div */
+
+#yellow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.yellow {
+    height: 24vh;
+    width: 45vw;
+    background-color: yellow;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* Second section, two green div with pink div inside*/
+
+#green_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.green {
+    background-color: green;
+    height: 46vh;
+    width: 50vw;
+    margin: 10px;
+}
+
+#green_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#green_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.violet {
+    background-color: violet;
+    height: 15vh;
+    width: 18vw;
+    margin: 2em;
+}
